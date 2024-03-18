@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins' sans-serif;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin-top: 40%;
+    margin-left: 90%;
+}
+
+.container,
+h1 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: yellow;
+}
+
+.form {
+    display: inline;
+    position: relative;
+    margin: 5px 10px;
+    padding: 5px 8px;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px;
+}
+
+.form,
+label {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.form,
+input {
+    width: 60%;
+    font-size: 15px;
+    color: green;
+    background-color: black;
+    border: 1px solid #0376bd;
+}
+
+.question {
+    margin: 10px;
+    padding: 5px 8px;
+}
+
+.question,
+p {
+    font-size: 14px;
+    color: green;
+}
+
+.question,
+a {
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: blue;
+}
+
+.button {
+    width: 270px;
+    height: 30px;
+    margin-top: 7px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 1px solid none;
+}
+
+button {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
